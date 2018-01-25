@@ -1,0 +1,4 @@
+word embedding = w2v (100 features/word)
+sentence embedding = w2v mean
+using keras : model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+3 Dense Layer (200 relu, 150 sigmoid, 8 softmax)
